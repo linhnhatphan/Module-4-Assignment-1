@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+body {
+  background: rgba(176,176,176,1);
+  background: -moz-linear-gradient(top, rgba(176,176,176,1) 0%, rgba(180,180,180,1) 1%, rgba(255,255,255,0.57) 21%, rgba(255,255,255,0) 47%, rgba(255,255,255,0.55) 76%, rgba(179,179,179,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(176,176,176,1)), color-stop(1%, rgba(180,180,180,1)), color-stop(21%, rgba(255,255,255,0.57)), color-stop(47%, rgba(255,255,255,0)), color-stop(76%, rgba(255,255,255,0.55)), color-stop(100%, rgba(179,179,179,1)));
+  background: -webkit-linear-gradient(top, rgba(176,176,176,1) 0%, rgba(180,180,180,1) 1%, rgba(255,255,255,0.57) 21%, rgba(255,255,255,0) 47%, rgba(255,255,255,0.55) 76%, rgba(179,179,179,1) 100%);
+  background: -o-linear-gradient(top, rgba(176,176,176,1) 0%, rgba(180,180,180,1) 1%, rgba(255,255,255,0.57) 21%, rgba(255,255,255,0) 47%, rgba(255,255,255,0.55) 76%, rgba(179,179,179,1) 100%);
+  background: -ms-linear-gradient(top, rgba(176,176,176,1) 0%, rgba(180,180,180,1) 1%, rgba(255,255,255,0.57) 21%, rgba(255,255,255,0) 47%, rgba(255,255,255,0.55) 76%, rgba(179,179,179,1) 100%);
+  background: linear-gradient(to bottom, rgba(176,176,176,1) 0%, rgba(180,180,180,1) 1%, rgba(255,255,255,0.57) 21%, rgba(255,255,255,0) 47%, rgba(255,255,255,0.55) 76%, rgba(179,179,179,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0b0b0', endColorstr='#b3b3b3', GradientType=0 );
+}
+
+.header {
+  background-image: url("images\\top-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: url("images\\bottom-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-image: url("images\\logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+address {
+  text-align: right;
+  font-family: sans-serif;
+  padding: 20px;
+}
